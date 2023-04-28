@@ -40,7 +40,7 @@ export default{
         Clickme(){
             this.$emit("add-event")
             if(this.status=="shweta"){
-                this.status="swapnesh"
+                this.status="swap"
             }else{
                 this.status="shweta"
             }
